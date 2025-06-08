@@ -49,4 +49,3 @@ tensorboard --logdir runs   # launch TensorBoard dashboard
 
 ---
 
-Feel free to tweak hyperparameters at the top of `NLP_05.py` for your experiments.

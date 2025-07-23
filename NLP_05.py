@@ -40,7 +40,7 @@ class Vocab:
 
     def add_token(self, token):
         if token not in self.token_to_ids:
-            idx = len(self.token_to_ids)  # changed 'id' to 'idx' to avoid built-in name shadowing
+            idx = len(self.token_to_ids)
             self.token_to_ids[token] = idx
             self.id_to_token[idx] = token
 
@@ -78,7 +78,7 @@ class Vocab:
                 self.add_token(token)
 
 # Vokabulare instanziieren
-en_vocab = Vocab()
+en_vocab = Vocab() 
 fr_vocab = Vocab()
 en_vocab.build_Vocab(en_train)
 fr_vocab.build_Vocab(fr_train)

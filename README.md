@@ -1,4 +1,4 @@
-# Neural Machine Translation Demo
+# Neural Machine Translation
 
 A PyTorch-based English→French sequence‑to‑sequence model with Bahdanau attention.
 
